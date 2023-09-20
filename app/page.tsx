@@ -1,12 +1,11 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { v4 as uuid } from 'uuid';
 
 export default function Home() {
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState<any[]>([]);
   const [formData, setFormData] = useState({
     nome: '',
     mensagem: '',
