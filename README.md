@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Next.js App na Vercel
 
-## Getting Started
+Esta é uma demonstração de uma aplicação simples hospedada na plataforma Vercel. A aplicação oferece funcionalidades completas de CRUD, permitindo que você crie, leia, atualize e exclua itens.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Nota:** Esta aplicação não utiliza nenhum banco de dados externo. Em vez disso, ela simula o comportamento de um banco de dados usando um array em memória. Isso significa que os dados criados e gerenciados aqui não são persistentes e são redefinidos sempre que a aplicação é reiniciada.
 
 ## Deploy on Vercel
+Link para acessar a aplicação:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[Live App Running on Vercel](https://vercel.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Funcionalidades Principais
+
+- **Create (Criar):** Você pode criar novos itens preenchendo um formulário e enviando os dados. Cada item criado recebe um ID único gerado automaticamente.
+
+- **Read (Ler):** A lista de itens criados é exibida na página inicial. Se nenhum item foi criado ainda, uma mensagem informativa é exibida.
+
+- **Update (Atualizar):** Você pode atualizar as informações de um item existente diretamente na lista.
+
+- **Delete (Excluir):** Itens podem ser excluídos da lista, o que remove permanentemente os dados associados a eles.
+
+## Notas Importantes
+
+- Esta é uma aplicação de demonstração criada para fins de demonstração. Ela não utiliza nenhum banco de dados real para armazenar os dados.
+
+- Os dados criados e gerenciados nesta aplicação não são persistentes e são reiniciados sempre que a aplicação é reiniciada.
+
+- A aplicação foi desenvolvida usando o framework Next.js e hospedada na plataforma Vercel.
+
+#### Author
+José Antônio ©️ 2023
