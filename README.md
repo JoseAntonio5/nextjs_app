@@ -7,7 +7,7 @@ Esta é uma demonstração de uma aplicação simples hospedada na plataforma Ve
 ## Deploy on Vercel
 Link para acessar a aplicação:
 
-[Live App Running on Vercel](https://vercel.com/)
+[Live App Running on Vercel](https://nextjs-app-gules.vercel.app/)
 
 
 ## Funcionalidades Principais
