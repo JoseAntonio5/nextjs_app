@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
 import { v4 as uuid } from 'uuid';
 
 export default function Home() {
@@ -10,8 +9,6 @@ export default function Home() {
     nome: '',
     mensagem: '',
   });
-
-  const router = useRouter();
 
   useEffect(() => {
     // Faça uma solicitação GET para a rota /api/data
